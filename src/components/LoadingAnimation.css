@@ -1,0 +1,31 @@
+.loading-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+    /* Animation for drops_1 */
+    @keyframes moveRaindrop {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+    }
+    
+    /* Apply the animation to raindrops */
+    #drops_1,#drops_2,#drops_3,#drops_4 {
+      animation: moveRaindrop 2s linear infinite;
+    }
+    
+  

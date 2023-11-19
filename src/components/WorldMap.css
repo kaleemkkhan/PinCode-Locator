@@ -1,0 +1,193 @@
+.world-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+  /* Animation for drops_1 */
+  @keyframes moveDrops1 {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateX(-2%);
+    }
+    40% {
+      transform: translateX(2%);
+    }
+    60% {
+      transform: translateY(2%);
+    }
+    80% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to drops_1 */
+  #america {
+    animation: moveDrops1 7s reverse infinite;
+  }
+
+    @keyframes moveDrops2 {
+      0% {
+        transform: translateY(0);
+      }
+      20% {
+        transform: translateX(-2%);
+      }
+      40% {
+        transform: translateY(2%);
+      }
+      60% {
+        transform: translateY(2%);
+      }
+      80% {
+        transform: translateX(-2%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    
+    /* Apply the animation to drops_1 */
+    #euresia {
+      animation: moveDrops2 8.2s linear infinite;
+    }
+  /* Animation for drops_1 */
+  @keyframes moveDrops3 {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateX(-2%);
+    }
+    40% {
+      transform: translateX(2%);
+    }
+    60% {
+      transform: translateY(2%);
+    }
+    80% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to drops_1 */
+  #africa {
+    animation: moveDrops1 13s reverse infinite;
+  }
+
+    /* Animation for drops_1 */
+    @keyframes moveDrops4 {
+      0% {
+        transform: translateX(0);
+      }
+      20% {
+        transform: translateX(-2%);
+      }
+      40% {
+        transform: translateY(2%);
+      }
+      60% {
+        transform: translateY(2%);
+      }
+      80% {
+        transform: translateY(-2%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    /* Apply the animation to drops_1 */
+    #australia {
+      animation: moveDrops4 9s reverse infinite;
+    }
+
+      /* Animation for drops_1 */
+  @keyframes moveDrops5 {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateX(-2%);
+    }
+    40% {
+      transform: translateY(2%);
+    }
+    60% {
+      transform: translateY(2%);
+    }
+    80% {
+      transform: translateY(-2%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to drops_1 */
+  #lands_1, #lands_2 {
+    animation: moveDrops5 115s linear infinite;
+  }
+
+  @keyframes moveDrops6 {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-2%);
+    }
+    40% {
+      transform: translateX(2%);
+    }
+    60% {
+      transform: translateX(2%);
+    }
+    80% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #lands_3, #lands_4 {
+    animation: moveDrops7 17s linear infinite;
+  }
+
+    @keyframes moveDrops7 {
+      0% {
+        transform: translateX(0);
+      }
+      20% {
+        transform: translateY(-2%);
+      }
+      40% {
+        transform: translateX(2%);
+      }
+      60% {
+        transform: translateY(2%);
+      }
+      80% {
+        transform: translateY(-2%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    /* Apply the animation to drops_1 */
+    #antartica {
+      animation: moveDrops7 11s linear infinite;
+    }

@@ -1,0 +1,27 @@
+.error-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+  }@keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  #warn {
+    animation: blink 2s linear infinite;
+  }

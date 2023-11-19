@@ -1,0 +1,122 @@
+#location-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #3F3D56;
+  }
+  
+  #location-info h2 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+    margin-bottom: 10px;
+    color: #f1f3f1f3;;
+  }
+  
+  .country {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin: 5px 0;
+    color: #f1f3f1f3;
+  }
+  .place-card p{
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin: 5px 0;
+    color: #3F3D56;
+  }
+  
+  #loading, #error {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  .clear-button {
+    padding: 10px 20px;
+    background-color: #F96167;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px; /* Adjust font size for smaller screens */
+    cursor: pointer;
+    margin-top: 2%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Center the button horizontally */
+  }
+  
+  
+  .clear-button:hover {
+    background-color: #333;
+  }
+  
+  .place-card {
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 8px;
+    margin-top: 6px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#f1f3f1f3;
+  }
+  
+  .label-postal {
+    text-align: left;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    .App h1 {
+      font-size: 28px; /* Further reduce font size for smaller screens */
+    }
+  
+    #location-info h2 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    #location-info p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    #loading, #error {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .clear-button {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+
+
+/* scollable section */
+  .place-cards {
+    max-height: 300px; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    padding-right: 20px; /* Add some padding for the scrollbar */
+    margin-top: 10px; /* Adjust margin as needed */
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+  }
+  
+  .place-cards::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .place-cards::-webkit-scrollbar-thumb {
+    background-color: #F96167;
+    border-radius: 4px;
+  }
+  
+  .place-cards::-webkit-scrollbar-thumb:hover {
+    background-color: #F96167;
+  }
+  
+  .place-cards::-webkit-scrollbar-track {
+    background-color: #f1f3f1f3;
+    border-radius: 10px;
+  }
+  
